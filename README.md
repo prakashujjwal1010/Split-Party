@@ -4,19 +4,31 @@ DAPP built upon ethereum blockchain to plan, manage, share, track your party exp
 
 ### HOW IT LOOKS
 
+#### HOME
+
 ![screenshot of homepage](https://user-images.githubusercontent.com/40318927/61590583-2e9ffa80-abd9-11e9-9793-8263bcd3e53b.png)
 
 ![screenshot of homepage 2](https://user-images.githubusercontent.com/40318927/61590632-dc130e00-abd9-11e9-9d3a-3d5995f98628.png)
 
+
+#### CREATE PARTY GROUP FOR YOUR PARTY
 ![screenshot of creating group ](https://user-images.githubusercontent.com/40318927/61590686-8e4ad580-abda-11e9-9ca6-c095f649b171.png)
+
+#### JOIN PARTY GROUP FOR YOUR PARTY
 
 ![screenshot of joining group 2](https://user-images.githubusercontent.com/40318927/61590710-bf2b0a80-abda-11e9-8aae-c1edc5fcdd89.png)
 
+#### ADD YOUR PARTY EXPENSES
+
 ![screenshot of adding an expense 2](https://user-images.githubusercontent.com/40318927/61590728-e8e43180-abda-11e9-9b9d-3b2f6b9a9da8.png)
 
-![screenshot of adding an expense 2](https://user-images.githubusercontent.com/40318927/61590733-04e7d300-abdb-11e9-8133-85292bceadad.png)
+#### VERIFY THE EXPENSES
 
-![screenshot of homepage 2](https://user-images.githubusercontent.com/40318927/61590646-1aa8c880-abda-11e9-9e73-40acf83211b0.png)
+![screenshot of Verifying 2](https://user-images.githubusercontent.com/40318927/61590733-04e7d300-abdb-11e9-8133-85292bceadad.png)
+
+#### SEE YOUR INFO
+
+![screenshot of user 2](https://user-images.githubusercontent.com/40318927/61590646-1aa8c880-abda-11e9-9e73-40acf83211b0.png)
 
 ### Prerequisites
 
