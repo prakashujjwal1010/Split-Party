@@ -39,19 +39,22 @@ class Profile extends Component {
       console.log(account);
 
       let groups=[];
-      let group = {
-        name:null,
-        grpId:null,
-        venue:null,
-        date:null,
-        fee:null
-      }
+
       const noOfGroups = await contract.getNoOfTotalGroupsOf.call(account);
 
       let yourAllGroups = await contract.getPastEvents('CreateGroup',{fromBlock: 0, toBlock: 'latest'});
 
+      console.log(yourAllGroups);
       yourAllGroups.map((item,index) => {
         let value = item.returnValues;
+
+        let group = {
+          name:null,
+          grpId:null,
+          venue:null,
+          date:null,
+          fee:null
+        }
 
         let pd = new Date(0);
         pd.setUTCSeconds(value.date);
