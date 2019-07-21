@@ -47,7 +47,6 @@ class Profile extends Component {
       console.log(yourAllGroups);
       yourAllGroups.map((item,index) => {
         let value = item.returnValues;
-
         let group = {
           name:null,
           grpId:null,

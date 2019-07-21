@@ -174,7 +174,7 @@ class Groups extends Component {
 
   async showGroupInfo() {
     const contractInstance = this.state.contract;
-    const group = await contractInstance.getPastEvents('CreateGroup',{ filter: {grpId: this.state.selectedGrp}, fromBlock: 0, toBlock: 'latest'});
+    const group = await contractInstance.getPastEvents('CreateGroup',{ filter: {grpId: this.state.selectedGrp }, fromBlock: 0, toBlock: 'latest'});
     let grpInfo = await contractInstance.groups.call(this.state.selectedGrp);
     let pd = new Date(0);
     let dd = new Date(0);
